@@ -19,8 +19,9 @@ pipeline {
         }
         stage('Success') {
             steps {
-                bat 'echo Deployed... //Jay//'
+                bat 'echo Deployed!'
             }
         }
     }
 }
+// Developed By Janitha
