@@ -12,5 +12,15 @@ pipeline {
                 bat 'echo Running unit tests...'
             }
         }
+        stage('Deploy') {
+            steps {
+                bat 'echo Deploying to staging environment...'
+            }
+        }
+        stage('Success') {
+            steps {
+                bat 'echo Deployed... //Jay//'
+            }
+        }
     }
 }
